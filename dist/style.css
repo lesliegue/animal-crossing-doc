@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+body {
+  font-family: 'Domine', Segoe UI;
+  background-image: url("https://i.postimg.cc/NMkHrNbh/output-onlinepngtools.png");
+  background-color: #fffff;
+  color: 0a0a0a;
+  line-height: 1.7;
+  min-width: 300px;
+}
+#navbar {
+  position: fixed;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 3px solid;
+  border-color: #edd18f;
+  background: #fff7e0;
+}
+#navbar li {
+  list-style: none;
+  position: relative;
+  border-top: 3px solid #edd18f;
+  width: 100%;
+}
+#navbar ul {
+  padding: 0;
+}
+.nav-link {
+  display: block;
+  padding: 10px;
+  color: #0f0f0f;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.7;
+}
+header {
+  font-weight: bold;
+  font-size: 23px;
+}
+#nav-header {
+  text-align: center;
+  font-size: 25px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+p {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+}
+#pics {
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+@media only screen and (max-width: 460px) {
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+  code {
+    display: block;
+    text-align: left;
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+  }
